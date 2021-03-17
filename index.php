@@ -20,7 +20,8 @@ require_once("fonction.php");
         <div class="logo"><img class="logoimage" src="logo_ChAmMoFe_2.png"> </div>
         <div class="Titre">ChAmMoFe <br>
             <span class="Slogan">La Banque Alimentaire  pour tous</span>
-        </div>        
+        </div>
+        <h4 style="float: right;">Dévéloppé par <a href="http://kimchi-bts.fr">kimchi-bts.fr</a></h4>
 </div>
 
 <div class="menu_navigation">
@@ -40,7 +41,7 @@ require_once("fonction.php");
         }
         else 
         {
-            $page =0;
+            $page =1;
         }
         switch ($page)
         {
@@ -62,7 +63,7 @@ require_once("fonction.php");
 <div class='footer'> 
      <div class="foot"><div class="Position-Left"> <a class="non_under" href="index.php?page=9">Mentions légales </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="non_under" href="index.php?page=8"> Charte </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="non_under" href="mailto:chammofe@gmail.com">Contactez-nous </a></div></div>
     
-     <div class="foot"> <div class="Position-Right">Copyright 2021 ChAmMoFe | Tous droits réservés</div></div>
+     <div class="foot"> <div class="Position-Right">Copyright Kim Chi - ngotkc36@gmail.com | Tous droits réservés</div></div>
  </div>
 </footer>
 
