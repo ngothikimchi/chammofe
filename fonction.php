@@ -107,7 +107,7 @@
         {
 
             //recupere une seule classe identifié par idclasse.
-            $requete ="select * from enseigne where numSIRET =".$id_enseigne.";";
+            $requete ="select * from enseigne where numSIRET ='".$id_enseigne."';";
             $connect = connexion();
             //on recuperer les resultats de la requete:
             $resultats = mysqli_query($connect, $requete);

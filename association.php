@@ -31,39 +31,39 @@
 
 <label for="numSIREN">Numéro de Siren :</label>
     <input id="numSIREN" type="text" name="numSIREN" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['numSIREN']; ?>">
+    echo $l_assoc['numSIREN']; ?>">
 
 <label for="nomassoc">Nom de l'association :</label>
     <input id="nomassoc" type="text" name="nomassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['nomassoc']; ?>">
+    echo $l_assoc['nomassoc']; ?>">
 
 <label for="objetassoc">Object de l'association :</label>
     <input id="objetassoc" type="text" name="objetassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['objetassoc']; ?>">
+    echo $l_assoc['objetassoc']; ?>">
 
 <label for="rpzassoc">répresentant :</label>
     <input id="rpzassoc" type="text" name="rpzassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['rpzassoc']; ?>">
+    echo $l_assoc['rpzassoc']; ?>">
 
 <label for="telassoc">Téléphone :</label>
     <input id="telassoc" type="text" name="telassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['telassoc']; ?>">
+    echo $l_assoc['telassoc']; ?>">
 
 <label for="emailassoc">Email :</label>
     <input id="emailassoc" type="email" name="emailassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['emailassoc']; ?>">
+    echo $l_assoc['emailassoc']; ?>">
 
 <label for="adresseassoc">Adresse :</label>
     <input id="adresseassoc" type="text" name="adresseassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['adresseassoc']; ?>">
+    echo $l_assoc['adresseassoc']; ?>">
 
 <label for="cpassoc">Code postal :</label>
     <input id="cpassoc" type="text" name="cpassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['cpassoc']; ?>">
+    echo $l_assoc['cpassoc']; ?>">
 
 <label for="villeassoc">Ville :</label>
     <input id="villeassoc" type="text" name="villeassoc" value="<?php if ($l_assoc != null) 
-    echo $l_enseigne['villeassoc']; ?>">
+    echo $l_assoc['villeassoc']; ?>">
 
 <div class="form-buttons">
         <input class="bouton"  type="reset" name="Annuler" value="Annuler">
